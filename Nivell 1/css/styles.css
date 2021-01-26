@@ -2,3 +2,8 @@ body {
     height: 100vh;
     background: linear-gradient(100deg, Black, DeepSkyBlue); 
 }
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
