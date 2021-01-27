@@ -1,9 +1,64 @@
 body {
-    height: 100vh;
-    background: linear-gradient(100deg, Black, DeepSkyBlue); 
+    background: linear-gradient(100deg, Black, DeepSkyBlue);
+    font-family: Georgia, Verdana, sans-serif;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+h1, h3 {
+    font-family: Garamond, serif;
+    text-shadow: 2px 2px 4px black;
+}
+
+h4 {
+    font-family: Garamond, serif;
 }
 
 .carousel-inner img {
     width: 100%;
     height: auto;
+}
+
+article {
+    padding: 10px;
+}
+
+#menuUser a {
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+}
+
+@media (max-width: 300px) {
+    nav {
+        position: relative;
+    }
+
+    #menuUser {
+        position: absolute;
+        left: 100px;
+        top: 15px;
+    }
+
+    #menuUser a {
+        display: block;
+    }
+
+}
+
+@media (min-width: 301px) and (max-width: 767px) {
+    nav {
+        position: relative;
+    }
+
+    #menuUser {
+        position: absolute;
+        left: 100px;
+        top: 30px;
+    }
+
+    #menuUser a {
+        display: inline;
+    }
 }

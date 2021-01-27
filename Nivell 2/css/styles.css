@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+}
+
+main {
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+li {
+    background-color: rgb(190, 224, 224);
+}
+
+.text-light, .text-white {
+    background-color: rgb(128, 122, 122);
+}
